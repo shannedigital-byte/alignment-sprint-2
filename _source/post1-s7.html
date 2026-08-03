@@ -1,0 +1,50 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="fonts-embedded.css">
+<style>
+  :root{--pink:#FF30CC;--lime:#CCFD28;--cream:#FCF7ED;--ink:#282826;--custard:#FBEF82;
+        --jam:#F3DCE2;--heart:#E94362;--dawn:#7E7F84;}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1080px;height:1350px}
+  body{font-family:'DM Sans',sans-serif;color:var(--ink);overflow:hidden;position:relative}
+  .frame{position:absolute;inset:0;padding:80px 80px 64px;display:flex;flex-direction:column;z-index:2}
+  .badge{width:76px;height:76px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+         font-family:'Fraunces',serif;font-weight:900;font-size:36px;flex:none}
+  .head{font-family:'Fraunces',serif;font-weight:900;line-height:1.06;letter-spacing:-.014em;margin-top:26px}
+  .body{font-size:28px;line-height:1.45;margin-top:22px;max-width:880px}
+  .body b{font-weight:700}
+  .mid{flex:1;display:flex;align-items:center;justify-content:center;margin:20px 0}
+  .foot{display:flex;align-items:center;justify-content:space-between;margin-top:auto}
+  .wordmark{font-family:'Fraunces',serif;font-weight:900;font-style:italic;font-size:30px}
+  .swipe{font-weight:700;font-size:22px}
+  .photo{border-radius:50%;overflow:hidden;box-shadow:0 16px 40px rgba(40,40,38,.16)}
+  .photo img{width:100%;height:100%;object-fit:cover}
+  .chip{display:inline-flex;align-items:center;gap:12px;border-radius:100px;padding:14px 24px;
+        font-weight:700;font-size:22px}
+</style></head><body>
+
+<style>body{background:var(--jam)}</style>
+<div class="frame">
+  <div class="badge" style="background:var(--heart);color:var(--cream)">6</div>
+  <div class="head" style="font-size:64px">Lubricant isn&rsquo;t just<br>for dryness.</div>
+  <div class="body">Lube increases comfort and reduces friction, making intimacy more enjoyable <b>for many people, regardless of age.</b></div>
+  <div class="mid">
+    <div style="width:100%">
+      <div style="display:flex;justify-content:space-between;font-weight:700;font-size:22px;margin-bottom:14px">
+        <span>more friction</span><span style="color:var(--heart)">more comfort</span>
+      </div>
+      <div style="height:34px;border-radius:100px;background:linear-gradient(90deg,rgba(40,40,38,.22),#E94362)"></div>
+      <div style="display:flex;justify-content:center;gap:34px;margin-top:40px">
+        <svg width="70" height="90" viewBox="0 0 70 90"><path d="M35 4 C58 36 66 50 66 60 A31 31 0 0 1 4 60 C4 50 12 36 35 4Z" fill="#E94362" opacity=".85"/></svg>
+        <svg width="56" height="72" viewBox="0 0 70 90"><path d="M35 4 C58 36 66 50 66 60 A31 31 0 0 1 4 60 C4 50 12 36 35 4Z" fill="#FF30CC" opacity=".7"/></svg>
+        <svg width="42" height="54" viewBox="0 0 70 90"><path d="M35 4 C58 36 66 50 66 60 A31 31 0 0 1 4 60 C4 50 12 36 35 4Z" fill="#282826" opacity=".3"/></svg>
+      </div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <span class="wordmark" style="color:var(--pink)">Nancy</span>
+    <span class="swipe" style="color:var(--ink)">swipe &rarr;</span>
+  </div>
+</div>
+</body></html>

@@ -1,0 +1,48 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="fonts-embedded.css">
+<style>
+  :root{--pink:#FF30CC;--lime:#CCFD28;--cream:#FCF7ED;--ink:#282826;--custard:#FBEF82;
+        --jam:#F3DCE2;--heart:#E94362;--dawn:#7E7F84;}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1080px;height:1350px}
+  body{font-family:'DM Sans',sans-serif;color:var(--ink);overflow:hidden;position:relative}
+  .frame{position:absolute;inset:0;padding:80px 80px 64px;display:flex;flex-direction:column;z-index:2}
+  .badge{width:76px;height:76px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+         font-family:'Fraunces',serif;font-weight:900;font-size:36px;flex:none}
+  .head{font-family:'Fraunces',serif;font-weight:900;line-height:1.06;letter-spacing:-.014em;margin-top:26px}
+  .body{font-size:28px;line-height:1.45;margin-top:22px;max-width:880px}
+  .body b{font-weight:700}
+  .mid{flex:1;display:flex;align-items:center;justify-content:center;margin:20px 0}
+  .foot{display:flex;align-items:center;justify-content:space-between;margin-top:auto}
+  .wordmark{font-family:'Fraunces',serif;font-weight:900;font-style:italic;font-size:30px}
+  .swipe{font-weight:700;font-size:22px}
+  .photo{border-radius:50%;overflow:hidden;box-shadow:0 16px 40px rgba(40,40,38,.16)}
+  .photo img{width:100%;height:100%;object-fit:cover}
+  .chip{display:inline-flex;align-items:center;gap:12px;border-radius:100px;padding:14px 24px;
+        font-weight:700;font-size:22px}
+</style></head><body>
+
+<style>body{background:var(--lime)}</style>
+<div class="frame">
+  <div class="badge" style="background:var(--ink);color:var(--lime)">2</div>
+  <div class="head" style="font-size:66px">Arousal takes time.</div>
+  <div class="body">Unlike what movies show, it&rsquo;s completely normal for arousal to build gradually. <b>There&rsquo;s no &ldquo;right&rdquo; timeline.</b></div>
+  <div class="mid">
+    <svg width="820" height="300" viewBox="0 0 820 300">
+      <path d="M60 250 A350 210 0 0 1 760 250" stroke="rgba(40,40,38,.22)" stroke-width="16" fill="none" stroke-linecap="round"/>
+      <path d="M60 250 A350 210 0 0 1 560 78" stroke="#FF30CC" stroke-width="16" fill="none" stroke-linecap="round"/>
+      <circle cx="60" cy="250" r="16" fill="#282826"/>
+      <circle cx="560" cy="78" r="22" fill="#FF30CC" stroke="#282826" stroke-width="6"/>
+      <text x="46" y="292" font-family="DM Sans" font-size="24" font-weight="700" fill="#282826">start</text>
+      <text x="470" y="46" font-family="Fraunces" font-size="40" font-weight="900" fill="#282826">20+ min</text>
+      <text x="690" y="292" font-family="DM Sans" font-size="24" font-weight="700" fill="#282826" opacity=".6">no rush</text>
+    </svg>
+  </div>
+
+  <div class="foot">
+    <span class="wordmark" style="color:var(--ink)">Nancy</span>
+    <span class="swipe" style="color:var(--ink)">swipe &rarr;</span>
+  </div>
+</div>
+</body></html>

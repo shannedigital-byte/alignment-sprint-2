@@ -1,0 +1,49 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="fonts-embedded.css">
+<style>
+  :root{--pink:#FF30CC;--lime:#CCFD28;--cream:#FCF7ED;--ink:#282826;--custard:#FBEF82;
+        --jam:#F3DCE2;--heart:#E94362;--dawn:#7E7F84;}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1080px;height:1350px}
+  body{font-family:'DM Sans',sans-serif;color:var(--ink);overflow:hidden;position:relative}
+  .frame{position:absolute;inset:0;padding:80px 80px 64px;display:flex;flex-direction:column;z-index:2}
+  .badge{width:76px;height:76px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+         font-family:'Fraunces',serif;font-weight:900;font-size:36px;flex:none}
+  .head{font-family:'Fraunces',serif;font-weight:900;line-height:1.06;letter-spacing:-.014em;margin-top:26px}
+  .body{font-size:28px;line-height:1.45;margin-top:22px;max-width:880px}
+  .body b{font-weight:700}
+  .mid{flex:1;display:flex;align-items:center;justify-content:center;margin:20px 0}
+  .foot{display:flex;align-items:center;justify-content:space-between;margin-top:auto}
+  .wordmark{font-family:'Fraunces',serif;font-weight:900;font-style:italic;font-size:30px}
+  .swipe{font-weight:700;font-size:22px}
+  .photo{border-radius:50%;overflow:hidden;box-shadow:0 16px 40px rgba(40,40,38,.16)}
+  .photo img{width:100%;height:100%;object-fit:cover}
+  .chip{display:inline-flex;align-items:center;gap:12px;border-radius:100px;padding:14px 24px;
+        font-weight:700;font-size:22px}
+</style></head><body>
+
+<style>body{background:var(--pink)} .head{color:var(--cream)} .body{color:var(--custard)}
+  .bub{border-radius:30px;padding:24px 30px;font-size:26px;font-weight:600;max-width:620px;position:relative}
+</style>
+<div class="frame">
+  <div class="badge" style="background:var(--custard);color:var(--ink)">4</div>
+  <div class="head" style="font-size:64px">Communication is part<br>of good sex.</div>
+  <div class="body">Your partner can&rsquo;t read your mind. Talking about what you enjoy often leads to a better experience <b style="color:var(--cream)">for both of you.</b></div>
+  <div class="mid">
+    <div style="display:flex;flex-direction:column;gap:24px;width:100%">
+      <div class="bub" style="background:var(--cream);color:var(--ink);align-self:flex-start;border-bottom-left-radius:8px">
+        &ldquo;I really like it when you do that.&rdquo;</div>
+      <div class="bub" style="background:rgba(252,247,237,.18);color:var(--cream);align-self:flex-end;border-bottom-right-radius:8px">
+        &ldquo;Can we stay here a little longer?&rdquo;</div>
+      <div class="bub" style="background:var(--custard);color:var(--ink);align-self:flex-start;border-bottom-left-radius:8px">
+        &ldquo;Try a little softer.&rdquo;</div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <span class="wordmark" style="color:var(--cream)">Nancy</span>
+    <span class="swipe" style="color:var(--custard)">swipe &rarr;</span>
+  </div>
+</div>
+</body></html>
