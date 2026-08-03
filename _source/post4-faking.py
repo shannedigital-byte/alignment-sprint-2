@@ -66,7 +66,7 @@ S = [
     ("s3", slide("03", "here&rsquo;s why",
         "He thinks it&rsquo;s working.",
         76,
-        "So he keeps doing it. Every time you fake it, you teach him that the thing that isn&rsquo;t working <b>is</b> working &mdash; and the real answer gets further away.")),
+        "Your partner may believe what they&rsquo;re doing is working, making it harder for them to understand what actually brings you pleasure.")),
 
     ("s4", slide("04", "the trade",
         "Honesty beats performance.",
