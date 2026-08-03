@@ -1,4 +1,4 @@
-# Why we created this post — and why it's effective
+
 
 **The angle:** Every fact in this carousel is something women commonly aren't taught — not because it's obscure, but because sex ed, media, and even friend-group conversation consistently leave it out. Naming that gap directly ("nobody taught you") does two things at once: it's inherently shareable (people share things that validate "wait, me too, nobody told me that either") and it puts Nancy on the right side of a real cultural frustration, not just selling a product.
 
