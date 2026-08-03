@@ -49,14 +49,14 @@ HTML = '''<!doctype html>
 
   <div class="head">
     Why do most women<br>
-    reach the <span style="color:var(--pink)">Big O</span> during
+    reach the <span style="color:var(--pink)">Big O</span> during<br>
     <span class="circ">foreplay,
       <svg viewBox="0 0 460 120" preserveAspectRatio="none">
         <path d="M26,62 C24,28 118,10 232,12 C358,14 438,32 434,62 C430,92 326,107 208,104 C96,101 22,86 28,54 C32,34 72,19 138,14"
               stroke="#FF30CC" stroke-width="7" fill="none" stroke-linecap="round"/>
       </svg>
-    </span><br>
-    but not during sex itself?
+    </span> but not while<br>
+    doing it with a partner?
   </div>
 
   <div class="mid">
