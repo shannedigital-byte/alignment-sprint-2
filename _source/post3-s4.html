@@ -1,0 +1,55 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="fonts-embedded.css">
+<style>
+  :root{--pink:#FF30CC;--lime:#CCFD28;--cream:#FCF7ED;--ink:#282826;--custard:#FBEF82;--dawn:#7E7F84;}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1080px;height:1350px}
+  body{font-family:'DM Sans',sans-serif;color:var(--ink);overflow:hidden;position:relative}
+  .frame{position:absolute;inset:0;padding:78px 76px 62px;display:flex;flex-direction:column;align-items:center;
+         text-align:center;justify-content:space-between}
+  .head{font-family:'Fraunces',serif;font-weight:900;font-size:74px;line-height:1.22;letter-spacing:-.018em;position:relative}
+  .circ{position:relative;display:inline-block;padding:0 12px}
+  .circ svg{position:absolute;left:-18px;top:-10px;width:calc(100% + 36px);height:calc(100% + 20px);overflow:visible}
+  .mid{flex:1;width:100%;display:flex;align-items:center;justify-content:center}
+  .foot{width:100%;display:flex;align-items:center;justify-content:space-between}
+  .wordmark{font-family:'Fraunces',serif;font-weight:900;font-style:italic;font-size:32px}
+  .tag{font-family:'Fraunces',serif;font-weight:600;font-style:italic;font-size:30px;opacity:.55}
+  .spark{position:absolute}
+  .body{font-size:33px;line-height:1.42;max-width:840px;font-weight:500}
+  .body b{font-weight:700}
+  .num{font-family:'Fraunces',serif;font-weight:900;font-size:150px;line-height:1}
+</style></head><body>
+
+<style>body{background:var(--pink)}
+  .head,.body{color:var(--cream)}
+</style>
+<div class="frame">
+  
+  <svg class="spark" style="left:44px;top:210px" width="76" height="76" viewBox="0 0 76 76">
+    <g stroke="#FBEF82" stroke-width="5" stroke-linecap="round">
+      <path d="M12 38 H2"/><path d="M18 20 L10 12"/><path d="M18 56 L10 64"/>
+    </g>
+  </svg>
+  <svg class="spark" style="right:40px;top:300px" width="80" height="80" viewBox="0 0 80 80">
+    <g stroke="#FBEF82" stroke-width="5" stroke-linecap="round">
+      <path d="M64 38 H74"/><path d="M58 20 L66 12"/><path d="M58 56 L66 64"/>
+    </g>
+  </svg>
+  <div class="mid">
+    <div>
+      <div class="num" style="color:var(--custard);opacity:.45">03</div>
+      <div class="head" style="font-size:66px;margin-top:10px">And she's still<br><span class="circ">in her head.<svg viewBox="0 0 460 120" preserveAspectRatio="none">
+        <path d="M26,62 C24,28 118,10 232,12 C358,14 438,32 434,62 C430,92 326,107 208,104 C96,101 22,86 28,54 C32,34 72,19 138,14"
+              stroke="#FBEF82" stroke-width="7" fill="none" stroke-linecap="round"/>
+      </svg></span></div>
+      <div class="body" style="margin-top:38px;color:var(--custard)">The angle. The time it's taking. Whether he's getting bored. <b style="color:var(--cream)">Hard to arrive anywhere when you never left.</b></div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <span class="wordmark" style="color:var(--cream)">Nancy</span>
+    <span class="tag" style="color:var(--custard)">swipe &rarr;</span>
+  </div>
+</div>
+</body></html>

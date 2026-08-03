@@ -1,0 +1,47 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="fonts-embedded.css">
+<style>
+  :root{--pink:#FF30CC;--lime:#CCFD28;--cream:#FCF7ED;--ink:#282826;--custard:#FBEF82;}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1080px;height:1350px}
+  body{font-family:'DM Sans',sans-serif;color:var(--cream);overflow:hidden;position:relative;
+       background:linear-gradient(180deg,#0f0b0f 0%,#170e16 30%,#3d1236 60%,#71195f 82%,#9c2183 100%)}
+
+  /* film grain */
+  .grain{position:absolute;inset:0;opacity:.16;pointer-events:none;z-index:1;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/></filter><rect width='180' height='180' filter='url(%23n)' opacity='.55'/></svg>")}
+  .glow{position:absolute;left:50%;bottom:-160px;transform:translateX(-50%);width:900px;height:520px;
+        background:radial-gradient(ellipse at center,rgba(255,48,204,.34),transparent 70%);z-index:0}
+
+  .frame{position:absolute;inset:0;padding:74px 84px 66px;display:flex;flex-direction:column;z-index:2}
+  .logo{width:86px;height:86px;flex:none;border-radius:50%;overflow:hidden;object-fit:cover}
+  .mid{flex:1;display:flex;flex-direction:column;justify-content:center}
+
+  .kicker{font-family:'DM Sans';font-weight:700;font-size:20px;letter-spacing:.22em;text-transform:uppercase;
+          color:var(--lime);margin-bottom:20px}
+  .head{font-family:'Fraunces',serif;font-weight:900;text-transform:uppercase;letter-spacing:-.005em;
+        line-height:1.06;color:var(--cream)}
+  .body{font-size:31px;line-height:1.5;color:var(--cream);opacity:.9;max-width:860px;margin-top:26px;font-weight:400}
+  .body b{font-weight:700;opacity:1;color:var(--custard)}
+
+  .foot{display:flex;align-items:center;justify-content:space-between;margin-top:auto}
+  .swipe{font-weight:500;font-size:24px;color:var(--lime)}
+  .num{font-family:'Fraunces',serif;font-weight:900;font-size:24px;color:var(--cream);opacity:.4}
+</style></head><body>
+<div class="glow"></div>
+<div class="grain"></div>
+
+<div class="frame">
+  <img class="logo" src="../assets/logo/Nancy_Logo_Circular_Pink.png">
+  <div class="mid">
+    <div class="kicker">here&rsquo;s why</div>
+    <div class="head" style="font-size:76px">He thinks it&rsquo;s working.</div>
+    <div class="body">So he keeps doing it. Every time you fake it, you teach him that the thing that isn&rsquo;t working <b>is</b> working &mdash; and the real answer gets further away.</div>
+  </div>
+  <div class="foot">
+    <span class="num">03</span>
+    <span class="swipe">swipe &rarr;</span>
+  </div>
+</div>
+</body></html>
